@@ -226,3 +226,11 @@ body .top P {
 .set-of-pics img {
   height: 100%;
 }
+.set-of-pics .front-end {
+  display: flex;
+  flex-direction: row;
+}
+.set-of-pics .marketing {
+  display: flex;
+  flex-direction: row;
+}
