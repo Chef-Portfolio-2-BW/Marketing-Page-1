@@ -211,18 +211,21 @@ footer nav a {
 body {
   background-color: black;
 }
-body h1 {
-  color: white;
-}
 body P {
   color: white;
   font-size: 30px;
 }
 .set-of-pics {
   display: flex;
+  flex-wrap: wrap;
 }
 .top h1 {
   font-size: 150px;
+  text-align: center;
+  color: #fd9827;
+}
+.top p {
+  font-size: 50px;
   text-align: center;
   color: #fd9827;
 }
@@ -234,6 +237,10 @@ body P {
   margin: 0 10px;
   justify-content: space-evenly;
   width: 100%;
+}
+.team-container p {
+  font-size: 50px;
+  color: #fd9827;
 }
 .team-container a {
   font-size: 30px;
