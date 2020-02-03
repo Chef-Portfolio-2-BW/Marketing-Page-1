@@ -218,6 +218,9 @@ body P {
   color: white;
   font-size: 30px;
 }
+.set-of-pics {
+  display: flex;
+}
 .top h1 {
   font-size: 150px;
   text-align: center;
