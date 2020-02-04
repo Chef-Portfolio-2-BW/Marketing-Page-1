@@ -189,6 +189,13 @@ header nav a {
   font-size: 25px;
   margin-left: 30px;
 }
+button {
+  border: solid 1px white;
+  background-color: #fd9827;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
 footer {
   display: flex;
   justify-content: space-between;
