@@ -215,19 +215,28 @@ body P {
   color: white;
   font-size: 30px;
 }
-.set-of-pics {
-  display: flex;
-  flex-wrap: wrap;
-}
-.top h1 {
-  font-size: 100px;
+h1 {
+  font-size: 150px;
   text-align: center;
   color: #fd9827;
 }
-.top p {
+h2 {
+  font-size: 80px;
+  text-align: center;
+  color: #fd9827;
+}
+p {
   font-size: 50px;
   text-align: center;
   color: #fd9827;
+}
+.set-of-pics {
+  width: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.set-of-pics .c-pic {
+  width: 33%;
 }
 .team-container {
   display: flex;
@@ -237,6 +246,10 @@ body P {
   margin: 0 10px;
   justify-content: space-evenly;
   width: 100%;
+}
+.team-container p {
+  font-size: 50px;
+  color: #fd9827;
 }
 .team-container a {
   font-size: 30px;
@@ -259,4 +272,16 @@ body P {
 }
 .team-container .img img {
   border-radius: 50%;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright .cr {
+  width: 20%;
+  font-size: 20px;
+}
+.copyright .cr a {
+  text-decoration: none;
+  color: white;
 }
