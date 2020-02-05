@@ -1,8 +1,6 @@
 body{
     background-color: black;
-
-        
-       
+    width: 99%;
 }
 
 .top {
@@ -76,9 +74,7 @@ body{
 .set-of-pics {
     display: flex;
     justify-content: center;
-
-margin-bottom: 20px;
-
+    margin-bottom: 20px;
     .c-pic1 {
         width: 33%;
     }
@@ -119,35 +115,72 @@ margin-bottom: 20px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 10px;
     justify-content: space-evenly;
-    width: 100%;
     p {
         font-size: 50px;
         color: @primary-color;
+
+        @media @tablet {
+            font-size: 40px;
+        }
+
+        @media @mobile {
+            font-size: 35px;
+        }
     }
 
     a {
-        font-size: 30px;
+        font-size: 35px;
         color: @secondary-color;
         text-decoration: none;
+
+        @media @tablet {
+            font-size: 25px;
+        }
+
+        @media @mobile {
+            font-size: 20px;
+        }
     }
 
     .team-lead {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
+        .tl {
+            @media @tablet{
+            width: 40%;
+        
+        }
+        }
     }
 
     .program-con {
-
         display: flex;
+        flex-direction: row;
 
-
+        
+        .pc {
+            display: flex;
+            flex-direction: row;
+            
+            @media @mobile {
+                display: flex;
+                flex-direction: column;
+            }
+        }
     }
 
     .marketing-con {
         display: flex;
+        @media @tablet {
+            margin-bottom: 20px;
+        }
+
+        @media @mobile {
+            margin-bottom: 30px;
+        }
     }
 
     .img {
