@@ -218,6 +218,7 @@ button {
     width: 100px;
     height: 30px;
     font-size: 20px;
+    margin-left: 5px;
   }
 }
 footer {
@@ -261,16 +262,18 @@ body {
 }
 body P {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
 }
 h1 {
-  font-size: 150px;
+  font-size: 125px;
   text-align: center;
   color: #fd9827;
+  padding: 4%;
 }
 @media (max-width: 800px) {
   h1 {
     font-size: 100px;
+    padding: 2%;
   }
 }
 h2 {
@@ -291,6 +294,14 @@ p {
 @media (max-width: 800px) {
   p {
     font-size: 45px;
+  }
+}
+.sha-com-lea {
+  margin: 20px;
+}
+@media (max-width: 800px) {
+  .sha-com-lea {
+    margin: 10px;
   }
 }
 .set-of-pics {
