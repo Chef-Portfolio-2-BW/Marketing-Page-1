@@ -174,46 +174,87 @@ header {
   background-color: black;
 }
 header .logo {
-  width: 400px;
+  width: 20%;
+}
+@media (max-width: 800px) {
+  header .logo {
+    width: 30%;
+  }
 }
 header nav {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 800px) {
+  header nav {
+    width: 70%;
+  }
+}
 header nav a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 30px;
+}
+@media (max-width: 800px) {
+  header nav a {
+    font-size: 20px;
+  }
 }
 button {
   border: solid 1px white;
   background-color: #fd9827;
-  width: 150px;
-  height: 30px;
-  font-size: 20px;
+  width: 125px;
+  height: 40px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+  button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
 }
 footer {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  align-items: center;
+}
+footer .logo {
+  width: 20%;
+}
+@media (max-width: 800px) {
+  footer .logo {
+    width: 30%;
+  }
 }
 footer nav {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 800px) {
+  footer nav {
+    width: 70%;
+  }
+}
 footer nav a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 30px;
+}
+@media (max-width: 800px) {
+  footer nav a {
+    font-size: 20px;
+  }
 }
 body {
   background-color: black;
@@ -222,18 +263,6 @@ body P {
   color: white;
   font-size: 30px;
 }
-.copyright {
-  display: flex;
-  justify-content: center;
-}
-.copyright .cr {
-  width: 20%;
-  font-size: 20px;
-}
-.copyright .cr a {
-  text-decoration: none;
-  color: white;
-}
 h1 {
   font-size: 150px;
   text-align: center;
@@ -241,7 +270,7 @@ h1 {
 }
 @media (max-width: 800px) {
   h1 {
-    font-size: 125px;
+    font-size: 100px;
   }
 }
 h2 {
@@ -249,10 +278,20 @@ h2 {
   text-align: center;
   color: #fd9827;
 }
+@media (max-width: 800px) {
+  h2 {
+    font-size: 75px;
+  }
+}
 p {
   font-size: 50px;
   text-align: center;
   color: #fd9827;
+}
+@media (max-width: 800px) {
+  p {
+    font-size: 45px;
+  }
 }
 .set-of-pics {
   display: flex;
@@ -269,10 +308,10 @@ p {
 }
 @media (max-width: 800px) {
   .set-of-pics .c-pic1 {
-    width: 49%;
+    width: 50%;
   }
   .set-of-pics .c-pic2 {
-    width: 49%;
+    width: 50%;
   }
   .set-of-pics .c-pic3 {
     display: none;
@@ -312,4 +351,16 @@ p {
 }
 .team-container .img img {
   border-radius: 50%;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright .cr {
+  width: 50%;
+  font-size: 20px;
+}
+.copyright .cr a {
+  text-decoration: none;
+  color: white;
 }

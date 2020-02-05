@@ -2,20 +2,39 @@ footer{
   display: flex;
   justify-content: space-between;
   background-color: black;
-  align-items: center;
+  
+  .logo {
+      width: 20%;
+
+      @media @tablet {
+          width: 30%;
+      }
+  }
+  
   nav {
-      width: 60%;
+      width: 80%;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
+
+      @media @tablet {
+          width: 70%;
+      }
+
+
       
   a{
       text-decoration: none;
       color: white;
-      font-size: 25px;
+      font-size: 30px;
       margin-left: 30px;
-      
+
+      @media @tablet {
+          font-size: 20px;
+
+      }
+  }   
   }
-  }
+  
 }
