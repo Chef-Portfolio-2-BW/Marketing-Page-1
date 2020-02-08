@@ -216,7 +216,7 @@ header nav a {
   }
 }
 button {
-  border: solid 1px white;
+  border: white;
   background-color: #fd9827;
   width: 110px;
   height: 40px;
@@ -226,12 +226,10 @@ button {
   margin-left: 30px;
 }
 @media (max-width: 800px) {
-  button {
-    width: 90px;
-    height: 30px;
-    font-size: 20px;
-    margin-left: 5px;
-  }
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 5px;
 }
 footer {
   display: flex;
@@ -355,13 +353,13 @@ body {
   margin-bottom: 20px;
 }
 .set-of-pics .c-pic1 {
-  width: 33%;
+  width: calc(100%/3);
 }
 .set-of-pics .c-pic2 {
-  width: 33%;
+  width: calc(100%/3);
 }
 .set-of-pics .c-pic3 {
-  width: 33%;
+  width: calc(100%/3);
 }
 @media (max-width: 800px) {
   .set-of-pics .c-pic1 {
@@ -462,6 +460,7 @@ body {
   border-radius: 50%;
 }
 .copyright {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
